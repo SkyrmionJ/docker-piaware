@@ -34,8 +34,8 @@ else
 fi
 
 # Set up piaware
-piaware-config flightaware-user ${USERNAME}
-piaware-config flightaware-password ${PASSWORD}
+# piaware-config flightaware-user ${USERNAME}
+# piaware-config flightaware-password ${PASSWORD}
 piaware-config allow-auto-updates no
 piaware-config allow-manual-updates no
 
