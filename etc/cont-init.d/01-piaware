@@ -3,14 +3,14 @@
 # Check to make sure the correct command line arguments have been set
 EXITCODE=0
 echo -ne "\e[31m"
-if [ -z "${USERNAME}" ]; then
-  echo "ERROR: USER environment variable not set"
-  EXITCODE=1
-fi
-if [ -z "${PASSWORD}" ]; then
-  echo "ERROR: PASSWORD environment variable not set"
-  EXITCODE=1
-fi
+#if [ -z "${USERNAME}" ]; then
+#  echo "ERROR: USER environment variable not set"
+#  EXITCODE=1
+#fi
+#if [ -z "${PASSWORD}" ]; then
+#  echo "ERROR: PASSWORD environment variable not set"
+#  EXITCODE=1
+#fi
 if [ -z "${LAT}" ]; then
   echo "ERROR: LAT environment variable not set"
   EXITCODE=1
