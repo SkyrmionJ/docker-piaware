@@ -101,7 +101,7 @@ RUN apk update && \
 
 COPY etc/ /etc/
 
-EXPOSE 30104/tcp 8080/tcp 30001/tcp 30002/tcp 30003/tcp 30004/tcp 30005/tcp
+EXPOSE 30104/tcp 9090/tcp 30001/tcp 30002/tcp 30003/tcp 30004/tcp 30005/tcp
 
 ENTRYPOINT [ "/init" ]
 
